@@ -36,7 +36,10 @@ async def on_message_create(event):
         await message.delete()
         return
 
-    if (value - 1) != last_value:
+    if (
+            ((value - 1) != last_value) or
+            (message.author.id == previous_channel_message.author.id)
+    ):
         await message.delete()
 
 bot.start()
