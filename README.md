@@ -29,7 +29,7 @@ Here is an example:
   "target_channel": 800401182392713267
 }
 ```
-If the config file does not follow the above format, then you will run into issues.
+If the config file does not follow the above format, then you will run into issues. Also, it should be noted that "token" should be the actual token of your bot and not just the word "token."
 
 ## Security
 Due to the nature of the GNU public license, you will be required to make your fork of this bot's code open-source and available to the public. However, it should be noted that you should **never** include
